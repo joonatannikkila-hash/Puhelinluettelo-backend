@@ -1,0 +1,17 @@
+### Hae kaikki henkilöt
+GET http://localhost:3001/api/persons
+
+### Hae yksi henkilö
+GET http://localhost:3001/api/persons/1
+
+### Poista henkilö
+DELETE http://localhost:3001/api/persons/1
+
+### Lisää henkilö
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Joonatan",
+  "number": "040-9999999"
+}
